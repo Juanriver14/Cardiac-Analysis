@@ -1,14 +1,14 @@
-# Datasets
-Space to use the URL from my Dataset
-README
 
+README
 #Description: This project was created as a way to use machine learning methods to analyze the SPECTF heart data located at http://archive.ics.uci.edu/ml/datasets/SPECTF+Heart
 
 
 import numpy as np    
 import pandas as pd
-# For optimization We’ll use the SciPy optimize package to find the optimal values
-# of Lagrange multipliers, and compute the soft margin and the separating hyperplane.
+
+For optimization We’ll use the SciPy optimize package to find the optimal values
+of Lagrange multipliers, and compute the soft margin and the separating hyperplane.
+
 from scipy.optimize import Bounds, BFGS                     
 from scipy.optimize import LinearConstraint, minimize   
 # For plotting
